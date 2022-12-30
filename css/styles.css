@@ -1,0 +1,70 @@
+body{
+    background-color: #D7C49EFF;
+    color: #343148FF;
+    min-width: 100vh;
+}
+.btn{
+  background-color: #D7C49EFF;
+  color:#343148FF ;
+  cursor: pointer;
+  padding: 8px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343148FF;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #D7C49EFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(247, 93, 101);
+  }
+  h1{
+    text-align: center;
+    color: #343148FF;
+  }
+  .desc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .desc p{
+    color: #343148FF;
+    font-weight: 800;
+    text-indent: 12px;
+    font-size: 1rem;
+
+  }
+  .log{
+    background-color: #343148FF;
+    padding: 100px;
+    text-align: center;
+    color: #D7C49EFF;
+  }
+  form input{
+    margin: 5px;
+    padding: 8px;
+  }
+
+  #notUser{
+    width: 2rem;
+  }
+  
+
+
+
+
+ 

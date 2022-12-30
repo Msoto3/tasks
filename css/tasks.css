@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #D7C49EFF;
+    color: #343148FF;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343148FF;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #D7C49EFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(247, 93, 101);
+  }
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-right: 50px;
+}
+#tasks{
+    display: flex;
+
+}
+input, button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+#toAdd{
+    flex: 1 1 0%;
+    padding: 1rem;
+    background-color:#343148FF;
+    color: #D7C49EFF;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+
+}
+#toAdd::placeholder{
+    color: #D7C49EFF;
+}
+#submit{
+    cursor: pointer;
+    background-color: #3e363f;
+    border-radius: 1rem;
+    padding: 1rem;
+    color:#73a580 ;
+    transition: 0.4s;
+  
+}
+#submit:hover{
+    opacity: 0.9;
+}
+.list h2{
+    text-align: center;
+}
+.list #item{
+    display: flex;
+    justify-content: space-between;
+    background-color:#343148FF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+
+}
+.list #item .content{
+    flex: 1 1 0%;
+}
+.content .text{
+    color: #D7C49EFF;
+    font-size: 2rem;
+    width: 100%;
+    
+}
+
