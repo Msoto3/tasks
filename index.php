@@ -44,8 +44,7 @@
                 echo "<p>".$_SESSION['user']."</p>";
             } 
             else{
-                echo '<p style="width: 800px; font-size: 2rem; line-height:2;">Welcome, this website was built for the purpose of utilizing databases with php/sql and organizing tasks under the "Tasks" option, in order to see the option and access this page you first will need to login, if you do not have a profile, then you may create one by clicking the "Sign up" option 
-                (please type a random made up email when it asks with the correct format)';
+                echo '<h1 style="width: 800px; font-size: 2rem; line-height:2;">Welcome to my to-do list app';
             }
        ?>
     </section>
